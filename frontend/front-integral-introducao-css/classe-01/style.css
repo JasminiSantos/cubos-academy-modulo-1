@@ -1,0 +1,8 @@
+body{
+    background: burlywood;
+    padding: 50px;
+    border-radius: 10px;
+}
+p, ul{
+    margin-bottom: 100px;
+}
