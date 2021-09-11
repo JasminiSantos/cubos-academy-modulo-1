@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background: #E5E5E5;
+}
+
+.cards{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background: #FFFFFF;
+    width: 430px;
+    margin: 90px auto;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.card-images{
+    width: 80px;
+}
+.cookie-card-button, .alert-card-button{
+    border-radius: 5px;
+    border-style: none;
+    width: 180px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.cookie-card-button{
+    background: #ED6755;
+    box-shadow: 0 7px 12px -4px rgb(197, 113, 113);
+    cursor: pointer;
+}
+.alert-card-button{
+    background: #1C1B5E;
+    box-shadow: 0 7px 12px -4px #1C1B5E;
+    cursor: pointer;
+}
+.close{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 17px;
+    cursor: pointer;
+}
