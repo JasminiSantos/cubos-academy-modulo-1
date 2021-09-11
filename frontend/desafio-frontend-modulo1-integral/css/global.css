@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:wght@100;400&display=swap');
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+    html{scroll-behavior:smooth}
+/* formatação da página e fontes*/
+body{
+    background: #FAFAFA;
+}
+.content{
+    text-align: center;
+    margin: 0 auto;
+    width: 77vw;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+}
+h1{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+}
+h2{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+h3{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+p{
+    background: #FAFAFA;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+}
+/* header e navbar */
+header{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.navbar-header{
+    width: 100%;
+}
+.navbar-header ul{
+    margin-top: 0;
+    float: right;
+}
+.navbar-header ul li{
+    list-style: none;
+    display: inline;
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    margin-left: 40px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #33323D;
+    align-items: center;
+}
+.nav-completa{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 77vw;
+}
+.nav-left{
+    display: flex;
+    width: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.nav-right{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.nav-right a{
+    margin-left: 16px;
+}
+.navbar-footer, .navbar-footer ul{
+    display: flex;
+}
+.nav-links-footer{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+/* botão branco */
+
+.white-button{
+    display: inline-block;
+    background: #FAFAFA;
+    border: 1px solid #33323D;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    transition: background 0.5s ease;
+}
+.white-button:hover{
+    background: #33323D;
+    color: #FAFAFA;
+}
+
+/* contato */
+
+.contato{
+    margin: 150px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.contato-left h2{
+    width: 33vw;
+    text-align: left;
+}
+.contato-right{
+    width: 100%;
+    text-align: right;
+}

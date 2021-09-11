@@ -1,0 +1,68 @@
+body{
+    background: #FAFAFA;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+}
+.header-style{
+    text-align: center;
+    margin: 0 auto;
+    width: 77vw;  
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 70.5%;
+}
+.projects{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+.portfolio-images{
+    width: 100%;
+}
+.image-box{
+    display: flex;
+    width: 53.2%;
+}
+.right-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 125px;
+    width: 34.5%;
+    text-align: left;
+    box-sizing: border-box;
+    border-color: #33323D;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+.left-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 125px;
+    width: 34.5%;
+    text-align: left;
+    box-sizing: border-box;
+    border-color: #33323D;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+.texts{
+    margin-top: 36px;
+    margin-bottom: 33px;
+}
+.contato-right .white-button{
+    padding: 16px 50px;
+}
+.right-text-box .white-button, .left-text-box .white-button{
+    padding: 16px 38px;
+}

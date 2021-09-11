@@ -1,0 +1,95 @@
+/* páginas projetos */
+
+.hero img{
+    width: 100%;
+}
+.colunas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 126px;
+}
+.skills{
+    margin-top: 25px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+}
+.descricao-projeto-aside{
+    padding: 48px 0;
+    width: 38%;
+    text-align: left;
+    box-sizing: border-box;
+    border-color: #33323D;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.descricao-projeto-aside p{
+    margin: 37px 0;
+}
+.main{
+    margin-left: 125px;
+    width: 57.2%;
+    text-align: left;
+}
+.main img{
+    width: 100%;
+    margin-top: 39px;
+}
+.main p{
+    margin: 20px 0 40px 0;
+}
+.links{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 0;
+    padding: 40px 0;
+    display: flex;
+    box-sizing: border-box;
+    border-color: #33323D;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+.left-links{
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.left-links-names{
+    margin-left: 32px;
+    text-align: left;
+}
+.right-links{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.right-links-names{
+    margin-right: 32px;
+    text-align: right;
+}
+.last-and-next{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: right;
+    color: #33323D;
+    opacity: 0.5;
+}
+
+.contato-right .white-button{
+    padding: 16px 50px;
+}
+.visitar .white-button{
+    margin-top: 32px;
+    padding: 16px 60px;
+}

@@ -1,0 +1,84 @@
+.hero{
+    display: block;
+    position: relative;
+}
+.hero img{
+    width: 100%;
+}
+.caixa-apresentacao{
+    position: absolute;
+    background: #FAFAFA;
+    bottom: 0;
+    width: 32vw;
+    height: 59.5vh;
+    vertical-align: middle;
+    text-align: left;
+}
+.caixa-apresentacao h1{
+    margin-top: 56px;
+}
+.dark-blue-button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background: #203A4C;
+    align-items: center;
+    transition: background 0.5s ease;
+}
+.down-arrows span{
+    width: 32px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 14px 16px;
+}
+.button-text{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 32px;
+}
+.dark-blue-button:hover{
+    background: #5FB4A2;
+}
+.dark-blue-button:hover svg, .dark-blue-button:hover svg path{
+    stroke: #FFFFFF;
+}
+#sobre{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 150px;
+}
+.image-homepage-profile{
+    width: 45%;
+}
+.sobre-mim{
+    margin-left: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    border-color: #33323D;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+.sobre-mim h2{
+    margin-top: 50px;
+    margin-bottom: 28px;
+    text-align: left;
+}
+.descricao{
+    margin-bottom: 24px;
+    text-align: left;
+}
+.contato-right .white-button{
+    padding: 16px 50px;
+}
+.sobre-mim .white-button{
+    padding: 16px 24px;
+    margin-bottom: 46px;
+}

@@ -1,0 +1,76 @@
+.entre-em-contato{
+    display: flex;
+    padding-top: 49px;
+    box-sizing: border-box;
+    border-color: #33323D;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+.entre-em-contato-left, .contato-left{
+    margin-right: auto
+}
+.entre-em-contato-right, .contato-right{
+    display: flex;
+    flex-direction: column;
+    width: 57.3%;
+    text-align: left;
+}
+.contato-formulario{
+    display: flex;
+    padding: 47px 0 109px 0;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+.dados label{
+    margin-bottom: 12px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+}
+#mensagem{
+    font-size: 16px;
+    background: rgba(51, 50, 61, 0.1);
+    color: #33323D;
+    height: 96px;
+}
+.dados input{
+    font-size: 16px;
+    height: 48px;
+    background: rgba(51, 50, 61, 0.1);
+    color: #33323D; 
+}
+.entre-em-contato-right p{
+    margin-bottom: 54px;
+}
+.dark-icons{
+    margin-bottom: 49px;
+}
+.dark-icons a{
+    text-decoration: none;
+    margin-right: 16px;
+}
+.botao-enviar input{
+    margin-top: 24px;
+    background: #203A4C;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 72px;
+    cursor:pointer;
+    transition: background 0.5s ease;
+}
+.botao-enviar input:hover{
+    background: #5FB4A2;
+    color: #FFFFFF;
+}
